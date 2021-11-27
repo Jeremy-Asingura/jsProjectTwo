@@ -1,6 +1,10 @@
 let usersAge = prompt("How old are you?");
 
-  if (usersAge % 2 === 0){
+  if(usersAge < 0){
+    console.log("Please enter a valid input(not a negative number)");
+  }
+
+  else if (usersAge % 2 === 0){
     alert("Your age is an even number!!");
 } 
 

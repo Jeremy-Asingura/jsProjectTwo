@@ -2,16 +2,23 @@
 * ! changes the style of the body
 **/
 
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
 h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color:black;
-    text-shadow: 0 0 80px firebrick, 0 0 180px firebrick, 0 0 280px firebrick, 0 0 400px firebrick;
+    color:#000000;
+    text-shadow: 0 0 80px #b22222, 0 0 180px #b22222, 0 0 280px #b22222, 0 0 400px #b22222;
     margin-top: 200px;
-    font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 160px;
+    font-family: 'Road Rage', cursive;    
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 /**
@@ -19,5 +26,5 @@ h1{
 **/
 
 body{
-    background-color:goldenrod;
+    background-color:#daa520;
 }

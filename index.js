@@ -9,9 +9,9 @@ let usersAge = prompt("How old are you?");
 } 
 
   else if (usersAge % 2 === 1){
-  alert("Your age is odd!!");
+    alert("Your age is an odd number!!");
 } 
 
-   else{
-   alert("Please give valid input next time");
+  else{
+    alert("Please give valid input next time");
 }

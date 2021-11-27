@@ -6,7 +6,8 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color:darkkhaki;
+    color:black;
+    text-shadow: 0 0 80px firebrick, 0 0 180px firebrick, 0 0 280px firebrick, 0 0 400px firebrick;
     margin-top: 200px;
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
@@ -14,17 +15,9 @@ h1{
 }
 
 /**
-* ! Adds a cool hover effect to the words
-**/
-
-h1:hover{
-    text-shadow: 0 0 80px blue, 0 0 180px blue, 0 0 280px blue, 0 0 400px blue;
-}
-
-/**
 * ! Changes the color of the body(white screen)
 **/
 
 body{
-    background-color: darkorange;
+    background-color:goldenrod;
 }
